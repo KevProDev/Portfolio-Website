@@ -38,15 +38,31 @@ export default function Home() {
               world forward together
             </p>
             <div className="flex justify-center flex-wrap gap-6">
-              <button type="button" className="btn btn-purple">
+              <button
+                type="button"
+                className="btn btn-purple hover:bg-bookmark-white hover:text-black"
+              >
                 Projects
               </button>
-              <button type="button" className="btn btn-white">
+              <button
+                type="button"
+                className="btn btn-white hover:bg-bookmark-purple hover:text-white"
+              >
                 More about me
               </button>
             </div>
           </div>
+          {/* Image */}
+          <div className="flex justify-center flex-1 mb-10 md:mb-16 lg:mb-0 z-10">
+            <img
+              className="w5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full"
+              src="/hero-bg.png"
+              alt="desktop screen with code"
+            />
+          </div>
         </div>
+        {/* Rounded Rectangle */}
+        <div className="hidden md:block overflow-hidden rounded-l-full bg-bookmark-purple absolute h-80 w-2/4"></div>
       </section>
     </div>
   );
