@@ -30,9 +30,12 @@ export default function Home() {
         <div className="container flex flex-col-reverse lg:flex-row items-center gap-12 mt-14 lg:mt-28">
           {/* Content */}
           <div className="flex flex-1 flex-col items-center lg:items-start">
-            <h2 className="text-bookmark-blue text-3xl md:text-5xl text-center lg:text-left mb-6">
+            <h2 className="text-bookmark-blue text-3xl md:text-5xl text-center lg:text-left mb-2">
               Kevin Johnson Jr
             </h2>
+            <h3 className="text-bookmark-blue text-xl md:text-2xl text-center lg:text-left mb-6">
+              Frontend Web Developer
+            </h3>
             <p className="text-bookmark-grey text-lg text-center lg:text-left mb-6">
               React is where I spend my time coding, but I'm always open to
               learn new technologies
