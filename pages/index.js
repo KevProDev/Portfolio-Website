@@ -11,7 +11,7 @@ export default function Home() {
         <nav className="container flex items-center py-4 mt-4 sm:mt-12">
           <div className="py-1">
             {/* <img src="/logo-bookmark.svg" alt="" /> */}
-            <h1 className="font-bold text-2xl">KEVIN JOHNSON JR</h1>
+            <h1 className="font-bold text-2xl">KEVIN JOHNSON</h1>
           </div>
           <ul className="hidden sm:flex flex-1 justify-end items-center gap-12 text-bookmark-blue uppercase text-xs">
             <li className="cursor-pointer">About </li>
