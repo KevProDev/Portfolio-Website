@@ -104,9 +104,9 @@ export default function Home() {
                 <span className="font-bold text-left md:text-center">
                   Know{" "}
                 </span>
-                Know What To Have Eating Out
+                What To Have Eating Out
               </h1>
-              <p className="text-bookmark-grey my-4 text-left md:text-center md:w-3/4 lg:w-full">
+              <p className="text-bookmark-grey my-4 text-left md:text-center lg:text-left md:w-3/4 lg:w-full">
                 As living in Chicago we have a large amount of diverse
                 restaurants, when trying out a new restaurants for the first
                 time you don’t have a clue what a meal can may taste like based
@@ -149,7 +149,7 @@ export default function Home() {
           <div className="container flex flex-col lg:flex-row-reverse place-items-start md:items-center justify-center gap-x-24 z-10">
             {/* Image */}
             <div className="flex flex-col-reverse flex-1 justify-center text-left md:text-center z-10 mb-10 lg:mb-0">
-              <h3 className="text-bookmark-blue text-xl md:text-2xl lg:text-white mt-4">
+              <h3 className="text-bookmark-blue text-xl md:text-2xl lg:text-white mt-4 lg:pl-10">
                 Amazon Frontend Clone
               </h3>
               <img
@@ -163,7 +163,7 @@ export default function Home() {
               <h1 className="text-3xl text-bookmark-blue">
                 <span className="font-bold">Amazon </span>Frontend Clone
               </h1>
-              <p className="text-bookmark-grey my-4 text-left md:text-center md:w-3/4 lg:w-full">
+              <p className="text-bookmark-grey my-4 text-left md:text-center lg:text-left md:w-3/4 lg:w-full">
                 Building this project help me learn how to use React to make
                 repeatable ui elements also use redux for state management.
                 <br />
