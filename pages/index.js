@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { MenuIcon } from "@heroicons/react/solid";
+import { ContactMe } from "../components/ContactMe";
 
 export default function Home() {
   return (
@@ -201,23 +202,24 @@ export default function Home() {
             Feel Free To Contact Me
           </h1>
           <p className="text-white text-2xl text-center">
-            I Would Love To Talk!
+            I would love to talk!
           </p>
           {/* <p className="text-center text-bookmark-grey mt-4">
             Helping ideas come into the world one line of code at a time below.
           </p> */}
         </div>
         {/* Project #1 */}
-        <div className="relative sm:w-3/4 lg:w-5/12 mx-auto mt-10 lg:mt-24">
-          <div className="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
+        <div className="relative mx-auto mt-10 lg:mt-24">
+          <div className="max-w-md mx-auto px-4 py-5 rounded-md bg-white">
             {/* Image */}
-            <div className="flex flex-col flex-1 justify-center z-10 mb-5 lg:mb-0">
+            {/* <div className="flex flex-col flex-1 justify-center items-center z-10 mb-5 lg:mb-0">
               <img
                 className="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full"
                 src="/illustration-features-tab-1.png"
                 alt="project one"
               />
-            </div>
+            </div> */}
+            <ContactMe />
           </div>
         </div>
       </section>
