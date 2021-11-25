@@ -55,7 +55,7 @@ export default function Home() {
 
       {/* About Me */}
       <section className="bg-bookmark-purple py-10 md:py-20 mt-20 lg:mt-60">
-        <div className=" max-w-3xl mx-auto px-2 text-bookmark-white text-center">
+        <div className="max-w-3xl mx-auto container text-bookmark-white text-center">
           <h3 className="text-xl md:text-2xl text-left md:text-center mb-6 font-semibold">
             Hey I'm Kevin, How's it going?
           </h3>
