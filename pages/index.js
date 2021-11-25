@@ -12,17 +12,7 @@ export default function Home() {
         <nav className="container flex items-center py-4 mt-4 sm:mt-12">
           <div className="py-1">
             {/* <img src="/logo-bookmark.svg" alt="" /> */}
-            <h1 className="font-bold text-2xl">KEVIN JOHNSON</h1>
-          </div>
-          <ul className="hidden sm:flex flex-1 justify-end items-center gap-12 text-bookmark-blue uppercase text-xs">
-            <li className="cursor-pointer">About </li>
-            <li className="cursor-pointer">Work </li>
-            <button className="bg-bookmark-red text-white rounded-md px-7 py-3 uppercase">
-              Contact
-            </button>
-          </ul>
-          <div className="flex sm:hidden flex-1 justify-end">
-            <MenuIcon className="h-8" />
+            <h1 className="font-bold text-3xl">KEVIN JOHNSON</h1>
           </div>
         </nav>
       </header>
@@ -35,7 +25,7 @@ export default function Home() {
               Creating A Better Future and Loving It!
             </h2>
             <h3 className="text-bookmark-blue text-xl md:text-2xl text-center lg:text-left mb-6">
-              Kevin Johnson | Frontend Web Developer
+              Frontend Web Developer
             </h3>
             <div className="flex justify-center flex-wrap gap-6">
               <button
@@ -65,11 +55,11 @@ export default function Home() {
 
       {/* About Me */}
       <section className="bg-bookmark-purple py-10 md:py-20 mt-20 lg:mt-60">
-        <div className="sm:w-3/4 lg:w-3/5 mx-auto px-2">
-          <h3 className="text-bookmark-blue text-xl md:text-2xl text-center lg:text-left mb-6">
+        <div className=" max-w-3xl mx-auto px-2 text-bookmark-white text-center">
+          <h3 className="text-xl md:text-2xl text-left md:text-center mb-6 font-semibold">
             Hey I'm Kevin, How's it going?
           </h3>
-          <p className="text-md md:text-2xl text-left md:text-center text-bookmark-white ">
+          <p className="text-md md:text-2xl text-left md:text-center ">
             Hi, I’m Kevin and I'm looking for a team that allows me to
             perpetually get out of my comfort zone. The ReactJs and NextJs is
             where I spend bulk of my time learning, but I’m always excited to
