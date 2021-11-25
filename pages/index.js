@@ -207,9 +207,6 @@ export default function Home() {
           <p className="text-white text-2xl text-center">
             I would love to talk!
           </p>
-          {/* <p className="text-center text-bookmark-grey mt-4">
-            Helping ideas come into the world one line of code at a time below.
-          </p> */}
         </div>
         {/* Project #1 */}
         <div className="relative container mx-auto mt-5 lg:mt-10">
