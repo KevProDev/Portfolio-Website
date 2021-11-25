@@ -5,9 +5,9 @@ export const ContactMe = () => {
   const [result, showResults] = useState();
   const form = useRef();
 
-  const userIdKey = process.env.NEXT_PUBLIC_VERCEL_ENV_YOUR_USER_ID;
-  const templateIdKey = process.env.NEXT_PUBLIC_VERCEL_ENV_YOUR_TEMPLATE_ID;
-  const serviceIdKey = process.env.NEXT_PUBLIC_VERCEL_ENV_YOUR_SERVICE_ID;
+  const userIdKey = process.env.NEXT_PUBLIC_YOUR_USER_ID;
+  const templateIdKey = process.env.NEXT_PUBLIC_YOUR_TEMPLATE_ID;
+  const serviceIdKey = process.env.NEXT_PUBLIC_YOUR_SERVICE_ID;
 
   const Result = () => {
     return <p>Your message was sent. Thank You!</p>;
