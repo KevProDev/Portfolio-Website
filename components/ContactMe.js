@@ -16,21 +16,14 @@ export const ContactMe = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm(
-        process.env.NEXT_PUBLIC_YOUR_SERVICE_ID,
-        process.env.NEXT_PUBLIC_YOUR_TEMPLATE_ID,
-        form.current,
-        process.env.NEXT_PUBLIC_YOUR_USER_ID
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    emailjs.sendForm(serviceIdKey, templateIdKey, form.current, userIdKey).then(
+      (result) => {
+        console.log(result.text);
+      },
+      (error) => {
+        console.log(error.text);
+      }
+    );
     e.target.reset();
     showResults(true);
   };
