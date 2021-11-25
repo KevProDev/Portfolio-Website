@@ -54,7 +54,11 @@ export const ContactMe = () => {
           placeholder="Message"
           required={true}
         />
-        <input type="submit" value="Send" className=" py-4 rounded-md" />
+        <input
+          type="submit"
+          value="Send"
+          className=" bg-bookmark-white py-4 rounded-md"
+        />
       </form>
       <div>{result ? <Result /> : null}</div>
     </>

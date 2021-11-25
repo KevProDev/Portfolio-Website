@@ -28,18 +28,14 @@ export default function Home() {
               Frontend Web Developer
             </h3>
             <div className="flex justify-center flex-wrap gap-6">
-              <button
-                type="button"
-                className="btn btn-purple hover:bg-bookmark-white hover:text-black"
-              >
-                Projects
-              </button>
-              <button
-                type="button"
-                className="btn btn-white hover:bg-bookmark-purple hover:text-white"
-              >
-                More about me
-              </button>
+              <a href="#projects">
+                <button
+                  type="button"
+                  className="btn btn-purple hover:bg-bookmark-white hover:text-black"
+                >
+                  Projects
+                </button>
+              </a>
             </div>
           </div>
           {/* Image */}
@@ -71,7 +67,7 @@ export default function Home() {
       <section className="bg-bookmark-white py-10 md:py-20">
         {/* Heading */}
         <div className="sm:w-3/4 lg:w-5/12 mx-auto px-2">
-          <h1 className="text-3xl text-center text-bookmark-blue">
+          <h1 id="projects" className="text-3xl text-center text-bookmark-blue">
             Recent Work
           </h1>
           {/* <p className="text-center text-bookmark-grey mt-4">
@@ -114,18 +110,25 @@ export default function Home() {
                 friends.
               </p>
               <div className="flex justify-center flex-wrap gap-6">
-                <button
-                  type="button"
-                  className="btn btn-purple hover:bg-bookmark-white hover:text-black"
+                <a href="https://github.com/KevProDev/Portfolio-Website/">
+                  <button
+                    type="button"
+                    className="btn btn-purple hover:bg-bookmark-white hover:text-black"
+                  >
+                    FoodBuddy Website
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/KevProDev/Portfolio-Website/"
+                  target="_blank"
                 >
-                  FoodBuddy Website
-                </button>
-                <button
-                  type="button"
-                  className="btn btn-white hover:bg-bookmark-purple hover:text-white"
-                >
-                  Github
-                </button>
+                  <button
+                    type="button"
+                    className="btn btn-white hover:bg-bookmark-purple hover:text-white"
+                  >
+                    Github
+                  </button>
+                </a>
               </div>
             </div>
           </div>
@@ -168,18 +171,25 @@ export default function Home() {
                 rendering. Feel free to check it out
               </p>
               <div className="flex justify-center flex-wrap gap-6">
-                <button
-                  type="button"
-                  className="btn btn-purple hover:bg-bookmark-white hover:text-black"
+                <a href="">
+                  <button
+                    type="button"
+                    className="btn btn-purple hover:bg-bookmark-white hover:text-black"
+                  >
+                    Amazon Clone Website
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/KevProDev/Amazon-React-Clone-1"
+                  target="_blank"
                 >
-                  FoodBuddy Website
-                </button>
-                <button
-                  type="button"
-                  className="btn btn-white hover:bg-bookmark-purple hover:text-white"
-                >
-                  Github
-                </button>
+                  <button
+                    type="button"
+                    className="btn btn-white hover:bg-bookmark-purple hover:text-white"
+                  >
+                    Github
+                  </button>
+                </a>
               </div>
             </div>
           </div>
@@ -202,8 +212,8 @@ export default function Home() {
           </p> */}
         </div>
         {/* Project #1 */}
-        <div className="relative mx-auto mt-10 lg:mt-24">
-          <div className="max-w-md mx-auto px-4 py-5 rounded-md bg-white">
+        <div className="relative container mx-auto mt-5 lg:mt-10">
+          <div className=" max-w-md mx-auto px-5 py-5 rounded-md bg-white">
             {/* Image */}
             {/* <div className="flex flex-col flex-1 justify-center items-center z-10 mb-5 lg:mb-0">
               <img
