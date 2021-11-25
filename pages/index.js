@@ -66,12 +66,15 @@ export default function Home() {
       {/* About Me */}
       <section className="bg-bookmark-purple py-10 md:py-20 mt-20 lg:mt-60">
         <div className="sm:w-3/4 lg:w-3/5 mx-auto px-2">
-          <h1 className="text-md md:text-2xl text-left md:text-center text-bookmark-white ">
+          <h3 className="text-bookmark-blue text-xl md:text-2xl text-center lg:text-left mb-6">
+            Hey I'm Kevin, How's it going?
+          </h3>
+          <p className="text-md md:text-2xl text-left md:text-center text-bookmark-white ">
             Hi, I’m Kevin and I'm looking for a team that allows me to
             perpetually get out of my comfort zone. The ReactJs and NextJs is
             where I spend bulk of my time learning, but I’m always excited to
             learn new technologies.
-          </h1>
+          </p>
         </div>
       </section>
       {/* Features */}
