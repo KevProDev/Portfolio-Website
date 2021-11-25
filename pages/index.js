@@ -214,14 +214,6 @@ export default function Home() {
         {/* Project #1 */}
         <div className="relative container mx-auto mt-5 lg:mt-10">
           <div className=" max-w-md mx-auto px-5 py-5 rounded-md bg-white">
-            {/* Image */}
-            {/* <div className="flex flex-col flex-1 justify-center items-center z-10 mb-5 lg:mb-0">
-              <img
-                className="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full"
-                src="/illustration-features-tab-1.png"
-                alt="project one"
-              />
-            </div> */}
             <ContactMe />
           </div>
         </div>
