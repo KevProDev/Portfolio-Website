@@ -171,7 +171,7 @@ export default function Home() {
                 rendering. Feel free to check it out
               </p>
               <div className="flex justify-center flex-wrap gap-6">
-                <a href="">
+                <a href="https://amazon-react-clone-eight.vercel.app/">
                   <button
                     type="button"
                     className="btn btn-purple hover:bg-bookmark-white hover:text-black"
