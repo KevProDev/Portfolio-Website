@@ -99,18 +99,22 @@ export default function Home() {
               <p className="text-bookmark-grey my-4 text-left md:text-center lg:text-left md:w-3/4 lg:w-full">
                 As living in Chicago we have a large amount of diverse
                 restaurants, when trying out a new restaurants for the first
-                time you don’t have a clue what a meal can may taste like based
-                on the menu sometimes.
+                time you don’t have a clue what a meal may taste like based on
+                the menu sometimes.
                 <br />
-                <br />I created a website where friends can recommend the best
-                meals from a restaurants they have been too. This was built
-                using React, Tailwind for the Frontend. NextJs for speed and
-                Backend. Mongodb for the database and Vercel for deployment.
-                This will allow small restaurants to get discovered from
-                friends.
+                <br />
+                {`So I created a website where people can review and recommend the
+                best meals from past restaurants they have been too. This was
+                built using React, Tailwind for the Frontend. NextJs for speed
+                and Backend. MySQL is the database hosted on Planetscale &
+                Vercel. This will allow small restaurants to get discovered
+                naturally`}
               </p>
               <div className="flex justify-center flex-wrap gap-6">
-                <a href="https://github.com/KevProDev/Portfolio-Website/">
+                <a
+                  href="https://github.com/KevProDev/Portfolio-Website/"
+                  target="_blank"
+                >
                   <button
                     type="button"
                     className="btn btn-purple hover:bg-bookmark-white hover:text-black"
@@ -118,10 +122,7 @@ export default function Home() {
                     FoodBuddy Website
                   </button>
                 </a>
-                <a
-                  href="https://github.com/KevProDev/Portfolio-Website/"
-                  target="_blank"
-                >
+                <a href="https://www.meallocker.com" target="_blank">
                   <button
                     type="button"
                     className="btn btn-white hover:bg-bookmark-purple hover:text-white"
