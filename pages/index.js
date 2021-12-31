@@ -111,10 +111,7 @@ export default function Home() {
                 naturally`}
               </p>
               <div className="flex justify-center flex-wrap gap-6">
-                <a
-                  href="https://github.com/KevProDev/Portfolio-Website/"
-                  target="_blank"
-                >
+                <a href="https://www.meallocker.com" target="_blank">
                   <button
                     type="button"
                     className="btn btn-purple hover:bg-bookmark-white hover:text-black"
@@ -122,7 +119,10 @@ export default function Home() {
                     FoodBuddy Website
                   </button>
                 </a>
-                <a href="https://www.meallocker.com" target="_blank">
+                <a
+                  href="https://github.com/KevProDev/Portfolio-Website"
+                  target="_blank"
+                >
                   <button
                     type="button"
                     className="btn btn-white hover:bg-bookmark-purple hover:text-white"
