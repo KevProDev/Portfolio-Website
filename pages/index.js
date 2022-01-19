@@ -63,7 +63,8 @@ export default function Home() {
         </div>
       </section>
       {/* Features */}
-      <section className="bg-bookmark-white py-10 md:py-20">
+
+      <section className="bg-bookmark-white pt-10 md:pt-20 pb-60">
         {/* Heading */}
         <div className="sm:w-3/4 lg:w-5/12 mx-auto px-2">
           <h1 id="projects" className="text-3xl text-center text-bookmark-blue">
@@ -78,8 +79,8 @@ export default function Home() {
           <div className="container flex flex-col lg:flex-row place-items-start md:items-center justify-center gap-x-24">
             {/* Image */}
             <div className="flex flex-col-reverse flex-1 justify-center text-left md:text-center z-10 mb-10 lg:mb-0">
-              <h3 className="text-bookmark-blue lg:text-white text-xl md:text-2xl mt-4">
-                FoodBuddy
+              <h3 className="text-bookmark-blue lg:text-white text-xl md:text-2xl mt-4 font-bold">
+                Meallocker
               </h3>
               <img
                 className="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full"
@@ -115,7 +116,7 @@ export default function Home() {
                     type="button"
                     className="btn btn-purple hover:bg-bookmark-white hover:text-black"
                   >
-                    FoodBuddy Website
+                    Website
                   </button>
                 </a>
                 <a
@@ -137,66 +138,7 @@ export default function Home() {
           <div className="hidden lg:block overflow-hidden rounded-r-full bg-bookmark-purple absolute h-80 w-2/4 -bottom-24 lg:-left-36  "></div>
         </div>
       </section>
-      {/* Features */}
-      <section className="bg-bookmark-white pt-10 pb-40">
-        {/* Heading */}
 
-        {/* Project #1 */}
-        <div className="relative mt-20 lg:mt-24">
-          <div className="container flex flex-col lg:flex-row-reverse place-items-start md:items-center justify-center gap-x-24 z-10">
-            {/* Image */}
-            <div className="flex flex-col-reverse flex-1 justify-center text-left md:text-center z-10 mb-10 lg:mb-0">
-              <h3 className="text-bookmark-blue text-xl md:text-2xl lg:text-white mt-4 lg:pl-10">
-                Amazon Frontend Clone
-              </h3>
-              <img
-                className="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full"
-                src="/illustration-features-tab-1.png"
-                alt="project one"
-              />
-            </div>
-            {/* Content */}
-            <div className="flex flex-1 flex-col place-items-start md:items-center lg:items-start">
-              <h1 className="text-3xl text-bookmark-blue">
-                <span className="font-bold">Amazon </span>Frontend Clone
-              </h1>
-              <p className="text-bookmark-grey my-4 text-left md:text-center lg:text-left md:w-3/4 lg:w-full">
-                Building this project help me learn how to use React to make
-                repeatable ui elements also use redux for state management.
-                <br />
-                <br />
-                Tailwind was use for to write css along with firebase of choice
-                for user authentaction. NextJs played a big part in user
-                experence by having pages load quickly because of server side
-                rendering. Feel free to check it out
-              </p>
-              <div className="flex justify-center flex-wrap gap-6">
-                <a href="https://amazon-react-clone-57t49neih-kevprodev.vercel.app">
-                  <button
-                    type="button"
-                    className="btn btn-purple hover:bg-bookmark-white hover:text-black"
-                  >
-                    Amazon Clone Website
-                  </button>
-                </a>
-                <a
-                  href="https://github.com/KevProDev/Amazon-React-Clone-1"
-                  target="_blank"
-                >
-                  <button
-                    type="button"
-                    className="btn btn-white hover:bg-bookmark-purple hover:text-white"
-                  >
-                    Github
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-          {/* Rounded Rectangle */}
-          <div className="hidden lg:block overflow-hidden rounded-l-full bg-bookmark-purple absolute h-80 w-2/4 -bottom-24 lg:-right-36 z-0"></div>
-        </div>
-      </section>
       {/* Contact */}
       <section className="bg-bookmark-purple py-20">
         {/* Heading */}
