@@ -83,7 +83,7 @@ export default function Home() {
               </h3>
               <img
                 className="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full"
-                src="/illustration-features-tab-1.png"
+                src="/resume display.jpg"
                 alt="project one"
               />
             </div>
