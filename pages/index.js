@@ -52,13 +52,15 @@ export default function Home() {
       {/* About Me */}
       <section className="bg-bookmark-purple py-10 md:py-20 mt-20 lg:mt-60">
         <div className="max-w-3xl mx-auto container text-bookmark-white text-center">
-          <h3 className="text-xl md:text-2xl text-left md:text-center mb-6 font-semibold">
+          <h3 className="text-xl md:text-4xl text-left md:text-center mb-6 font-semibold">
             Hey I'm Kevin, how's it going?
           </h3>
           <p className="text-md md:text-2xl text-left md:text-center ">
-            I'm looking for a team that allows me to perpetually get out of my
-            comfort zone. The ReactJs and NextJs is where I spend bulk of my
-            time learning, but I’m always excited to learn new technologies.
+            😊 I'm looking for a team that allows me to perpetually get out of
+            my comfort zone. Currently ReactJs and NextJs is where I spend bulk
+            of my time building frontend experiences with RESTful APIs
+            integration and databases, but I’m always excited to learn new
+            technologies.
           </p>
         </div>
       </section>
@@ -144,7 +146,7 @@ export default function Home() {
         {/* Heading */}
         <div className="sm:w-3/4 lg:w-5/12 mx-auto px-2">
           <h1 className="text-3xl text-center text-white">
-            Feel Free To Contact Me
+            Feel free to contact me
           </h1>
           <p className="text-white text-2xl text-center">
             I would love to talk!
